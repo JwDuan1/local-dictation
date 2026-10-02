@@ -1,0 +1,8 @@
+# runtime state and local data (history/failures may contain PHI) - never commit
+.venv/
+__pycache__/
+*.log
+dictate.pid
+history.jsonl
+failures/
+testaudio/
