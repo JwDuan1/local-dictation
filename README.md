@@ -108,3 +108,8 @@ sensitive notes; `.gitignore` keeps them out of the repository.
 - **Assistant mode:** with nothing selected, the 9B model may invent details. Review the result before pasting.
 - **Console windows:** selected text in a console (e.g. Windows Terminal) is not read in assistant mode, because
   Ctrl+C there would interrupt the running program.
+
+## License
+
+MIT (see `LICENSE`). `tools/convert_openai_to_hf.py` is unmodified from Hugging Face transformers v4.46.0 and stays
+under its Apache License 2.0 header. The models (Whisper, Qwen) and Ollama have their own licenses.
