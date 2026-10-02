@@ -6,3 +6,7 @@ dictate.pid
 history.jsonl
 failures/
 testaudio/
+settings.json
+recent/
+corrections.json
+vocabulary.txt
